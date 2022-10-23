@@ -1,0 +1,26 @@
+.kholi{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    /* border: 1px solid; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    box-shadow: 1px 1px 8px 3px rgba(0,0,0,0.15);
+}
+.audio{
+    width: 100%;
+}
+.bat-logo,.twitter-logo,.image-logo{
+    width: 25px;
+}
+.image-twitter{
+    width: 520px;
+}
+.image-insta,.image-map{
+    width: 480px;
+}
+.image-pic{
+    width: 450px;
+}
