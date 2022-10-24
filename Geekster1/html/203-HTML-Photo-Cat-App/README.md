@@ -1,5 +1,5 @@
 # Photo Cat App HTML-203-02
 
-<img width="423" alt="Screenshot 2022-09-17 at 12 29 17 PM" src="https://user-images.githubusercontent.com/104826351/197517046-0be192f9-6e34-4279-bcf0-ae1f41ce279d.png">
+![Screenshot (170)](https://user-images.githubusercontent.com/104826351/197517269-f8115b14-05a2-4676-9036-9a9655abc96f.png)
 
-![Screenshot (171)](https://user-images.githubusercontent.com/104826351/197517145-b80ba5c2-1802-4ae3-b8bd-22ef1dd452ef.png)
+![Screenshot (171)](https://user-images.githubusercontent.com/104826351/197517300-f36ca296-c108-47ac-bd3e-4b27bae2e69d.png)
