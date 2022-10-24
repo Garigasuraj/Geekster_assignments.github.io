@@ -1,70 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <title>Form</title>
 </head>
 <body>
-    <form>
     <fieldset>
-        <legend>Hello</legend>
+        <legend>Personal Details:</legend>
+        <br>
+        <caption>Salutation</caption>
         <select>
-            <option name = "select-option"> --None--</option>
-        </select>
+            <option name="none">--none--</option>
+        </select><br><br>
+        First name: <input type="text" placeholder="Enter the username">
+        <br><br>
+        Last name: <input type="text" placeholder="Enter the password">
+        <br>
+        <p>Gender: 
+        <label id="00">
+            <input type="radio" value="Male" id="00">Male</label>
+        <label id="01">
+            <input type="radio"  value="Female" id="01">Female</label>
+            </p>
+            <p>
+                Email: <input type="text" >
+            </p>
+            <p>
+                Date of birth: <input type="text" placeholder= "dd / mm / yyyy">
+            </p>
+            <p> Address:<br>
+                <textarea placeholder="enter the address"></textarea>
+            </p>
+            <button>submit</button>
     </fieldset>
-    </form>
-    <!-- <form>
-        <fieldset>
-            <legend>Personal details</legend>
-        <br>
-        <caption>
-            Salutation
-        </caption>
-        <br>
-        <select>
-            <option name = "select-option"> --None--</option>
-        </select>
-
-    
-            First name: <input type="text" placeholder="enter the username">
-        <p>
-            Last name: <input type="text" placeholder="enter the lastname">
-        </p>
-        </div>
-        <p>
-            Gender: <input type="radio" name="Gender"> Male
-            <input type="radio" name="Gender"> Female
-        </p>
-        <div>
-        <p>
-            Email: <input type ="text" placeholder="enter the email">
-        </p>
-        </div>
-        <p>
-            Date of Birth: <input type="text" placeholder="dd/mm/yyyy">
-        </p>
-        <p>
-            Address: <br><textarea placeholder="Enter the address"></textarea>
-        </p>
-        <div>
-        <button>submit</button>
-        </div>
-</filedse></form> -->
-    <!-- <style>
-        .make-outline{
-            border-style: solid;
-            border-width: 1px;
-            margin-top: -10px;
-            padding-left: 10px;
-            padding-bottom: 20px;
-        }
-        .hhh{
-            border: 10px solid transparent; 
-            /* border-style: solid;
-            border-width: 1px;
-            border: transparent; */
-            border-top-color: black;
-            border-width: 1px;
-        } -->
-    <!-- </style> -->
 </body>
 </html>
