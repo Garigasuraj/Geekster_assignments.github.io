@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    height: 430px;
+    width: 475px;
+    border-style:solid;
+    border-width:4px;
+    border-color:white;
+}
+.head{
+    margin-left: 30px;
+    color: white;
+    font-family: Roboto;
+}
+.boxes{
+    text-align: center;
+}
+.box{
+    color: white;
+    height: 40px;
+    width: 400px;
+    margin-top:1px;
+    color: black;
+    padding-left: 15px;
+}.bday-box{
+    display: inline-block;
+}
+.calender-img{
+    display: inline-block;
+    vertical-align: top;
+}
+.image{
+    width: 25px;
+    border:none;
+    border-radius: 25px;
+    margin-left: -35px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+.one{
+    width: 400px;
+    height: 38px;
+    margin-right: 0px;
+    margin-left: 27px;
+}
+.c-t{
+    margin-top: 15px;
+}
+.check-box{
+    display: inline-block;
+    margin-left: 31px;
+    margin-right: 13px;
+    margin-top: 0px;
+    color: white;
+    width: 25px; height: 25px;
+}
+.text{
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 13px;
+    color: white;
+    margin: 0px;
+}
+.button{
+    text-align: center;
+}
+.submit{
+    color: white;
+    background-color: black;
+    border-style:solid;
+    border-color:white;
+    width: 100px; height: 30px;
+    border-width:3px;
+    cursor:pointer;
+}
+.terms{
+    cursor:pointer;
+}
