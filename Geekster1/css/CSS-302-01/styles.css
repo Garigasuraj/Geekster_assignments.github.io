@@ -1,0 +1,53 @@
+.background{
+    height: 500px;
+    width: 500px;
+    margin-bottom: 0px;
+    /* margin-right: 0px; */
+}
+body{
+    background-image: url(https://media.istockphoto.com/photos/coffee-bean-picture-id466732980?b=1&k=20&m=466732980&s=170667a&w=0&h=n0DEkBlpc9udEzyUBy61oBkmGfWvTsCvBRCVJbCupVA=);
+}
+.menu{
+    width: 40%;
+    margin: 25px;
+    font-family: Roboto;
+    margin: 20px auto;
+    background-color:rgb(224, 189, 144);
+}
+h1,h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.est-yr{
+    font: 20px;
+    font-family: Roboto;
+    text-align: center;
+}
+.line{
+    width: 95%;
+    height: 4px;
+    margin: 0 auto;
+    background-color: brown;
+}
+.logo{
+    font-size: 30px;
+    margin: 0 48%;
+}
+.section-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.items{
+    font-family: Roboto;
+    margin-left: 20px;
+}
+.price{
+    font-family: Roboto;
+    margin: 0 20px;
+}
+.footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
