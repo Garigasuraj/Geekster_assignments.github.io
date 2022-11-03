@@ -1,0 +1,133 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 140px;
+    margin-top: -8px;
+}
+.linkedin{
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+.lastsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 20px;
+    color: grey;
+}
+.lastsection div{
+    margin: 10px 20px;
+    text-align: center;
+}
+.lastsection p{
+    margin-top: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    color: grey;
+}
+.lastsection p:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.join{
+    padding-top:14px;
+    font-weight: bold;
+}
+.sign-in{
+    background:white;
+    color:rgb(10, 102, 194);
+    height:45px; width: 90px;
+    border-color:rgb(10, 102, 194);
+    border-width: 1px;
+    border-style: solid;
+    font-size:14px;
+    border-radius:45px;
+    cursor:pointer;
+    display: inline-block;
+    transition: background-color 0.4s, color 0.4s;
+}
+.sign-in:hover{
+    background-color: rgb(10, 102, 194);
+    color:white;
+}
+.line{
+    margin-right: 10px;
+    height: 30px;
+    width: 10px;
+}
+/*==================================*/
+.bodyy{
+    display: flex;
+    margin-left:140px;
+    margin-top: 38px;
+}
+.login-information{
+    /* background-color: bisque; */
+    /* border: 1px solid black; */
+    margin-right: 50px;
+}
+.heading{
+    font-size: 55px;
+    color: rgb(168, 50, 50);
+    font-family:Quicksand;
+    margin-bottom: 20px;
+}
+.login{
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 380px;
+    height: 38px;
+}
+.terms-condi p{
+    color: grey;
+    font-family: Arial;
+    font-size: 13px;
+}
+.agrmnt{
+    color: rgb(10, 102, 194);
+}
+.agrmnt:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.H-line{
+    margin-top: 15px;
+    width: 173px;
+    height: 7px;
+}
+.H-line-width{
+    color: grey;
+    font-family: Roboto;
+    font-size: 13px;
+    margin: 0 15px;
+}
+.text{
+    color: grey;
+    font-family: Arial;
+    font-size: 13px;
+    margin-left: 110px;
+}
+.apply{
+    background-color:rgb(10, 102, 194);
+    color:white;
+    height: 50px; width: 395px;
+    border-color: rgb(10, 102, 194);
+    border: 1px solid;
+    font-size:16px;
+    border-radius: 45px;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s;
+    vertical-align: top;
+}
+.apply:hover{
+    background-color:white;
+    color:rgb(10, 102, 194);
+}
+.side-photo{
+    position: fixed;
+    width: 750px;
+}
