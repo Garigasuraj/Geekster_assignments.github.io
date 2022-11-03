@@ -1,0 +1,62 @@
+.container{
+    width: 300px;
+    height: 285px;
+    background-color:rgb(197, 76, 76);
+    margin: 80px auto;
+    font-family: Roboto;
+    border-radius: 10px;
+    box-shadow: 0px 5px rgb(144, 52, 13);
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.clear{
+    margin: 10px 10px;
+    width: 55px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color:rgb(207, 205, 60);
+    box-shadow: 0px 5px rgb(93, 92, 32);
+}
+.display{
+    width: 200px;
+    height: 30px;
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border-color: black;
+    background-color:rgb(20, 140, 181);
+    box-shadow: inset 2px 5px  rgba(47, 25, 25, 0.2);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10px;
+    row-gap:10px;
+    column-gap: 12px;
+}
+.grid div{
+    width: 55px;
+    height: 30px;
+    color:white;
+    background-color:rgb(20, 140, 181);
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px rgb(22, 55, 67);
+}
+.grid div.arthematic{
+    background-color:rgb(207, 205, 60);
+}
+.grid div.result{
+    background-color: rgb(92, 208, 92);
+}
+.clear,.grid div{
+    cursor: pointer;
+}
