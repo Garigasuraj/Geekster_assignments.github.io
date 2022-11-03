@@ -1,0 +1,26 @@
+.header{
+    background: rgb(13, 13, 54);
+    height: 65px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0; left: 0;
+}
+.header div{
+    font-family: Roboto,Arial;
+    font-size: 20px;
+    color: grey;
+    margin: 0px 25px;
+}
+.last-section div{
+    display: inline-block;
+    color: white;
+    margin: 0 15px;
+}
+.header div:hover{
+    cursor:pointer;
+    color:white;
+    font-size: 22px;
+}
