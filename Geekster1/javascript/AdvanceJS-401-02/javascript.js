@@ -34,6 +34,7 @@ for(let i=0; i<=num_child; i++){
         ele[i].style.color ="white"
     }
     else{
+        // for printing different after every 3 white colors
         for(let i=7; i<=num_child; i=i+8){
             ele[i+1].style.backgroundColor ="darkgreen"
             ele[i+1].style.color ="white"
