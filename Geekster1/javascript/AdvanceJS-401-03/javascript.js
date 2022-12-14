@@ -1091,7 +1091,7 @@ button_press.addEventListener("click",()=>{
         }
     }
 })
-// For removing previous div
+// For removing previous div 
 button_press.addEventListener("click",()=>{
     if(planet_option.value == "Mercury"){
         if(planet!==null){
