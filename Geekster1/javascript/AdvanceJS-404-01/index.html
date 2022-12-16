@@ -12,27 +12,44 @@
     <body>
         <h1>Calculate a weight of an object</h1>
         <br><br>
+
         <video muted loop autoplay plays-inline>
             <source src="videoplayback.mp4" type="video/mp4">
         </video>
+
        <div class="first_section">
         <input id="input_value" class='input' type="text" placeholder="Mass in Kilogram">
-        <select id="planet_opt" class="select_option">
-            <option value="invalid">--select planet--</option>
-            <option value="Mercury">Mercury</option>
-            <option value="Venus">Venus</option>
-            <option value="Earth">Earth</option>
-            <option value="Mars">Mars</option>
-            <option value="Jupiter">Jupiter</option>
-            <option value="Saturn">Saturn</option>
-            <option value="Uranus">Uranus</option>
-            <option value="Neptune">Neptune</option>
-            <option value="Pluto">Pluto</option>
-        </select>
-        <button id = "cal_but" class="cal">Calculate weight</button>
-       <div>
 
-        <!-- <img src="/javascript/AdvanceJS-404-01/images/mercury.jpg"> -->
+        <select id="planet_opt" class="select_option">
+            <option value="">--select planet--</option>
+            <option value="moon">Moon</option>
+            <option value="mercury">Mercury</option>
+            <option value="venus">Venus</option>
+            <option value="earth">Earth</option>
+            <option value="mars">Mars</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="saturn">Saturn</option>
+            <option value="uranus">Uranus</option>
+            <option value="neptune">Neptune</option>
+            <option value="pluto">Pluto</option>
+        </select>
+
+        <button id = "cal_but" class="cal">Calculate weight</button>
+        <!-- if mass value is empty -->
+        <div id="error_message_outer" class="for_outer_mass">
+            <div id="error_message_inner" class="for_inner_mass"></div>
+        </div>
+        <!-- if planet value if empty -->
+        <div id="error_msg_for_outer_planet" class="for_outer_mass">
+            <div id="error_msg_inner_planet" class="for_inner_mass"></div>
+        </div>
+
+        <div id="outer_container">
+            <img id="image">
+            <div id="inner_container">The weight of the object on</div>
+        </div>
+        <div id="result">55</div>
+
         <script src="javascript.js"></script>
     </body>
 </html>
