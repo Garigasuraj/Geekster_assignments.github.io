@@ -29,6 +29,7 @@ function change_planet(){
     else if(!value_opt){
         // add select mass div
         error_message.style.display = "none"
+        error_msg_planet.style.display = "none"
         outer_div.style.visibility = "visible"
         planet_image.setAttribute("src",`https://raw.githubusercontent.com/Garigasuraj/Geekster_assignments.github.io/master/Geekster1/javascript/AdvanceJS-404-01/images/${select_opt}.png`)
     }
@@ -38,10 +39,10 @@ let planet_gravity = new Map([
     ["moon" ,1.625],
     ["mercury", 3.7],
     ["venus", 8.87],
-    ["Earth_photo", 9.81],
+    ["earth", 9.81],
     ["mars", 3.71],
-    ["223952", 24.92],
-    ["580b585b2edbce24c47b270d", 10.44],
+    ["jupiter", 24.92],
+    ["saturn", 10.44],
     ["uranus", 8.87],
     ["neptune", 11.15],
     ["pluto", 0.58],
@@ -80,7 +81,5 @@ function mass_cal(){
 
         inner_div.textContent = `The weight of the object on ${planet_option.value.toUpperCase()}`
         document.getElementById("result").innerHTML = `${Math.floor(mass_value*gravity)}.00 N`
-
-        // moon, jupiter , earth, saturn
     }
 }
