@@ -51,12 +51,14 @@ function mass_cal(){
     const select_opt = planet_option.value
     if(!mass_value){
         error_message.style.display = "flex"
+        error_msg_planet.style.display = "none"
         outer_div.style.visibility = "hidden"
         inner_div.style.visibility = "hidden"
         document.getElementById("result").style.visibility = "hidden"
     }
     else if(!select_opt){
         error_msg_planet.style.display = "flex"
+        error_message.style.display = "none"
         outer_div.style.visibility = "hidden"
         inner_div.style.visibility = "hidden"
         document.getElementById("result").style.visibility = "hidden"
