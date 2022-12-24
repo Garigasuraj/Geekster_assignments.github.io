@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="view-port" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>Menu</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1 style="font-size: 40px; margin: 0px 25%;">Suraj Tip Calculator</h1>
+            <p class="line"></p>
+
+            <div id="inner_div">
+            <h4>How much was your bill?</h4>
+            $<input id="bill_input" type="text" placeholder="Enter the bill amount">
+            <br>
+
+            <h4>How was your service?</h4>
+
+            <select id="Service">
+                <option value="">--Choose an option</option>
+                <option value="30">30% - Outstanding</option>
+                <option value="20">20% - Good</option>
+                <option value="15">15% - it was okay</option>
+                <option value="10">10% - Bad</option>
+                <option value="15">5% - Terrible</option>
+            </select>
+
+            <h4>For how many people bill was prepared?</h4>
+            <input id="people_input" type="text" placeholder="Enter the no. of persons"> People
+            <br></div>
+
+            <button id="button">Calculate!</button>
+
+            <div id="result_div">
+                <p style="margin-bottom: 5px;">TIP AMOUNT</p>
+                <p id="result"></p>
+                <p style="margin-top:0px ;">each</p>
+            </div>
+        </div>
+        <script src="javascript.js"></script>
+    </body>
+</html>
