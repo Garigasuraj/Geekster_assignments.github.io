@@ -1,0 +1,31 @@
+body{
+    font-family: Roboto;
+    background-color: rgb(235, 220, 201);
+}
+#info_input{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 60%;
+    margin: 5px auto;
+}
+#info_input input{
+    border: 1px solid rgb(237, 146, 161);
+    padding-left: 10px;
+}
+#sub_button{
+    background:white;
+    color:rgb(237, 151, 165); 
+    padding: 10px 20px;
+    border-color:pink;
+    border-width: 1px;
+    border-style: solid;
+    font-size:14px;
+    border-radius:10px;
+    cursor:pointer;
+    transition: background-color 0.4s, color 0.4s;
+}
+#sub_button:hover{
+    background-color: pink;
+    color: white;
+}
