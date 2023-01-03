@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Yantramanav:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="slidercontainer">  
+        <div class="showSlide fade">  
+            <img src="https://c4.wallpaperflare.com/wallpaper/83/500/871/waterfall-high-resolution-desktop-wallpaper-preview.jpg" />  
+            <div class="content">Slide1</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="https://c4.wallpaperflare.com/wallpaper/41/681/303/pc-hd-1080p-nature-1920x1080-wallpaper-preview.jpg" />  
+            <div class="content">Slide2</div>  
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src="https://c4.wallpaperflare.com/wallpaper/362/276/920/nature-4k-pc-full-hd-wallpaper-thumb.jpg" />  
+            <div class="content">Slide3</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src="https://wallpaperaccess.com/full/2197750.jpg" />  
+            <div class="content">Slide4</div>  
+        </div>  
+        <a class="left" onclick="nextSlide(-1)">❮</a>  
+        <a class="right" onclick="nextSlide(1)">❯</a>  
+    </div>  
+    <script src="javascript.js"></script>
+</body>
+</html>

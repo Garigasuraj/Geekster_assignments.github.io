@@ -1,0 +1,30 @@
+body{
+    font-family: Roboto;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+#text_input{
+    margin: 25px 0px;
+    width: 250px;
+    height: 25px;
+}
+#icon{
+    margin-left: 10px;
+    font-size: 45px;
+    width: 10%;
+}
+#new_div{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 25px;
+}
+#nick_name{
+    width: 45%;
+    color: rgba(255, 255, 255,0.75);
+}
+.line{
+    margin: 0px;
+    border: 0.1px solid rgba(255, 255, 255,0.15);
+}
