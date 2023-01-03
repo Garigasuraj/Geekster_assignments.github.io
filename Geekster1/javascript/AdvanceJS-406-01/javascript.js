@@ -247,7 +247,7 @@ function filtering_elements(){
             return country.toLowerCase().startsWith(text.value)
         })
     }
-    else{
+    else if(button === "include"){
         data = data.filter((country)=>{
             return country.toLowerCase().includes(text.value)
         })
