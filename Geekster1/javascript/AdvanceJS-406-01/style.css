@@ -1,0 +1,70 @@
+body{
+   background-color: rgb(237, 237, 218);
+   margin: 0px 0px;
+}
+h1{
+    font-size: 70px;
+    font-family: Yantramanav;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+#container_1 span{
+    font-family: Roboto;
+    font-size: larger;
+    font-weight: bold;
+}
+#container_1{
+    background:linear-gradient(180deg,rgba(83, 83, 129, 0.25),rgba(43, 42, 42, 0.5)), url(https://images.pexels.com/photos/414916/pexels-photo-414916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    height: 350px;
+    padding-top: 90px;
+    text-align: center;
+}
+#container_1 div button{
+    padding: 10px 10px;
+    border: 1px solid rgb(145, 68, 217);
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(145, 68, 217);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+#container_1 input{
+    width: 350px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    outline: none;
+    padding-left: 15px;
+}
+#icon{
+    margin-left: 5px;
+    cursor: pointer;
+}
+#result_div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    font-family: Roboto;
+    font-size: 20px
+}
+#result_div div{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(180deg,rgba(136, 136, 223, 0.5),rgba(0,0,0,0.5)) ,url(https://www.wallmur.com/media/catalog/pdata/cache/1/crop_image/1100x/040ec0/o/f/black-political-world-map-wallpaper-mural-wm-ofd000030-41485041.jpg);
+    background-size: cover;
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 10px;
+}
+.color_button{
+    background-color: rgb(59, 59, 180) !important;
+    border-color: rgb(59, 59, 180) !important;
+}
