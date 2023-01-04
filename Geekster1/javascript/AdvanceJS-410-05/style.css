@@ -1,0 +1,41 @@
+body{
+    background:linear-gradient(140deg, rgba(238, 93, 93, 0.85),rgba(244, 197, 204, 0.55));
+    background-repeat: no-repeat;
+    height: 583px;
+}
+#outer_div{
+    height: 325px;
+    width: 650px;
+    margin: 200px auto;
+}
+#c_1,#c_2{
+    color: brown;
+}
+#text{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    padding: 20px 25px;
+    background-color: rgb(255, 195, 187);
+    box-shadow: 0px 10px 25px rgb(237, 31, 31);
+    border-radius: 13px;
+}
+#author{
+    font-family: Sevillana;
+    margin: 15px auto;
+}
+#text p{
+    border: 0.5px solid black;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+#sub_button{
+    border: 2px solid black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: white;
+    background:linear-gradient(140deg, rgba(244, 82, 82, 0.85),rgba(234, 164, 176, 0.55));
+    margin-left: 500px;
+    cursor: pointer;
+}
