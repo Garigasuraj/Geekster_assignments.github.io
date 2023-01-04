@@ -1,0 +1,32 @@
+body{
+    font-family: Roboto;
+}
+h1 ,p{
+    text-align: center;
+}
+#input_text{
+    display: flex;
+    justify-content: center ;
+}
+#text{
+    outline: none;
+    width: 450px;
+    height: 25px;
+    border: 1px solid rgb(76, 149, 149);
+    border-radius: 5px;
+    padding-left: 10px;
+    box-shadow: 0px 0px 10px rgba(76, 149, 149,0.15);
+}
+#image{
+    width: 170px;
+    border-radius: 3px;
+}
+#result_div{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 200px;
+    /* margin: 30px 200px; */
+}
+@media screen {
+    
+}
