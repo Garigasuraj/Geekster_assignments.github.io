@@ -4,6 +4,7 @@ let num_child = 17
 let a =""
 let copy=null;
 // print the div-containers
+
 for(let n=1; n<=num_child; n++){
     copy = a+= `<div>${n}th child</div>`
     child.innerHTML = copy
@@ -34,7 +35,7 @@ for(let i=0; i<=num_child; i++){
         ele[i].style.color ="white"
     }
     else{
-        // for printing different after every 3 white colors
+        // for printing different color after every 3 white colors
         for(let i=7; i<=num_child; i=i+8){
             ele[i+1].style.backgroundColor ="darkgreen"
             ele[i+1].style.color ="white"
