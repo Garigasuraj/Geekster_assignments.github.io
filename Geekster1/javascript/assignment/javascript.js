@@ -58,6 +58,11 @@ function delete_element(){
     ele.forEach((elem,index)=>{
         del_button[index].addEventListener("click",()=>{
             ele[index].remove()
+            // for making empty string if all parent nodes deleted
+            console.log(document.querySelectorAll("#output #result_div").length)
+            if(document.querySelectorAll("#output #result_div").length === 0){
+                html = ""
+            }
         })
     })
 }
