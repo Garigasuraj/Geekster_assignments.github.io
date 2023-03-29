@@ -1,0 +1,64 @@
+body{
+    font-family: Roboto;
+    background-color: rgb(233, 230, 227);
+}
+#info_input{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 60%;
+    margin: 5px 300px;
+}
+#info_input input{
+    border: 1px solid rgb(237, 146, 161);
+    padding-left: 10px;
+}
+#sub_button{
+    background:white;
+    color:rgb(237, 151, 165); 
+    padding: 10px 20px;
+    border-color:pink;
+    border-width: 1px;
+    border-style: solid;
+    font-size:14px;
+    border-radius:10px;
+    cursor:pointer;
+    transition: background-color 0.4s, color 0.4s;
+}
+#sub_button:hover{
+    background-color: pink;
+    color: white;
+}
+#gender_input{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+#result_div{
+    border-radius: 4px;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:10px 450px;
+    background-Color : rgb(226, 210, 242)
+}
+#result_div button{
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    border-color: white;
+}
+#result_div button:hover{
+    background-color: lightcoral;
+    color: white;
+}
+.name, .gender{
+    margin-left: -110px;
+}
