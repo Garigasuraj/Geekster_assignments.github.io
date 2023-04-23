@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">-->Created student object. which will have first name, last name, age, skills, country,enrolled keys and values for the keys</h1>
+    <script>
+        const student_date = {
+    firstName: "gariga",
+    lastName: "suraj",
+    age: 23,
+    skills: ["JavaScript", "HTML", "CSS"],
+    country: "india",
+    enrolled: {
+      math: true,
+      science: false,
+      history: false
+    },
+    student2:{
+    firstName: "raikanti",
+    lastName: "sudheer",
+    age: 18,
+    skills: ["java", "HTML", "CSS","Python"],
+    country: "india",
+    enrolled: {
+      math: true,
+      science: false,
+      history: false
+    }
+    }
+  };
+  const student_string = JSON.stringify(student_date);
+  
+  localStorage.setItem("student", student_string);
+    </script>
+</body>
+</html>
